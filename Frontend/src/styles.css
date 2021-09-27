@@ -1,20 +1,16 @@
-.navbar {
-    border-radius: 0px !important;
-}
-.navbar-brand {
-    color: white !important;
-}
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
 .table-wrapper {
     background: #fff;
     padding: 20px 25px;
     margin: 30px 0;
     border-radius: 3px;
-    border: 1px solid rgba(0,0,0,.09);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
 }
 .table-title {        
     padding-bottom: 15px;
-    background: #555555;
+    background: #212529;
     color: #fff;
     padding: 16px 30px;
     margin: -20px -25px 10px;
@@ -91,12 +87,9 @@ table.table td i {
     font-size: 19px;
 }
 table.table .avatar {
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    border-radius: 50px;
-    border: none;
+    border-radius: 50%;
     vertical-align: middle;
-    width: 50px;
+    margin-right: 10px;
 }
 .glyphicon {
     font-size: 16px !important;
